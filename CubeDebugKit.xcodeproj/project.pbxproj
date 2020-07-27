@@ -1,0 +1,848 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E87BFA9422802BC300622844 /* CubeHomeSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFA9322802BC300622844 /* CubeHomeSectionHeaderView.m */; };
+		E87BFA972280330D00622844 /* CubeHomeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFA962280330D00622844 /* CubeHomeWindow.m */; };
+		E87BFAAC228156A300622844 /* NEHTTPEyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFA9C228156A300622844 /* NEHTTPEyeViewController.m */; };
+		E87BFAAD228156A300622844 /* NEShakeGestureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFAA0228156A300622844 /* NEShakeGestureManager.m */; };
+		E87BFAAE228156A300622844 /* NEHTTPEyeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFAA1228156A300622844 /* NEHTTPEyeDetailViewController.m */; };
+		E87BFAAF228156A300622844 /* NEURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFAA6228156A300622844 /* NEURLSessionConfiguration.m */; };
+		E87BFAB0228156A300622844 /* NEHTTPEye.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFAA7228156A300622844 /* NEHTTPEye.m */; };
+		E87BFAB1228156A300622844 /* NEHTTPModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFAA8228156A300622844 /* NEHTTPModelManager.m */; };
+		E87BFAB2228156A300622844 /* NEHTTPEyeSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFAAA228156A300622844 /* NEHTTPEyeSettingsViewController.m */; };
+		E87BFAB3228156A300622844 /* NEHTTPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFAAB228156A300622844 /* NEHTTPModel.m */; };
+		E87BFABD2281775B00622844 /* CubeNetworkEyePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFABC2281775B00622844 /* CubeNetworkEyePlugin.m */; };
+		E87BFAC022818CF800622844 /* CubeBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFABF22818CF800622844 /* CubeBaseViewController.m */; };
+		E87BFAC42282821300622844 /* NetworkTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFAC32282821300622844 /* NetworkTestViewController.m */; };
+		E87BFAC92282830900622844 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFAC82282830900622844 /* DemoViewController.m */; };
+		E87BFACD2282C45A00622844 /* CubeAppInfoPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFACC2282C45A00622844 /* CubeAppInfoPlugin.m */; };
+		E87BFAD02282C48F00622844 /* CubeAppInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFACF2282C48F00622844 /* CubeAppInfoViewController.m */; };
+		E87BFAD32282D62100622844 /* CubeAppInfoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFAD22282D62100622844 /* CubeAppInfoUtil.m */; };
+		E87BFAD62283D48300622844 /* CubeAppInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFAD52283D48300622844 /* CubeAppInfoTableViewCell.m */; };
+		E87BFADB2283D75D00622844 /* CubeSandBoxPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFADA2283D75D00622844 /* CubeSandBoxPlugin.m */; };
+		E87BFADE2283D77A00622844 /* CubeSandBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFADD2283D77A00622844 /* CubeSandBoxViewController.m */; };
+		E87BFAE12283D78E00622844 /* CubeFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFAE02283D78E00622844 /* CubeFileUtil.m */; };
+		E87BFAE422840A7500622844 /* UIImage+Cube.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFAE322840A7500622844 /* UIImage+Cube.m */; };
+		E87BFAE7228415F500622844 /* CubeSandBoxModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFAE6228415F500622844 /* CubeSandBoxModel.m */; };
+		E87BFAEA2284174900622844 /* CubeSandBoxTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFAE92284174900622844 /* CubeSandBoxTableViewCell.m */; };
+		E87BFAEE2284288600622844 /* CubeSandBoxDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFAED2284288600622844 /* CubeSandBoxDetailViewController.m */; };
+		E87BFAF2228434B400622844 /* CubeSandBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFAF0228434B400622844 /* CubeSandBoxView.m */; };
+		E87BFAF5228438A800622844 /* CubeDebugKitUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFAF4228438A800622844 /* CubeDebugKitUtil.m */; };
+		E87BFAF9228515E500622844 /* CubeDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFAF8228515E500622844 /* CubeDBManager.m */; };
+		E87BFAFC22854F9700622844 /* SandBoxTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFAFB22854F9700622844 /* SandBoxTestViewController.m */; };
+		E87BFAFF22855F0400622844 /* img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E87BFAFD22855F0300622844 /* img.jpg */; };
+		E87BFB0022855F0400622844 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E87BFAFE22855F0400622844 /* video.mp4 */; };
+		E87BFB092285628C00622844 /* CubeDBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFB022285628B00622844 /* CubeDBTableViewController.m */; };
+		E87BFB0A2285628C00622844 /* CubeDBRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFB042285628B00622844 /* CubeDBRowView.m */; };
+		E87BFB0B2285628C00622844 /* CubeDBShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFB052285628C00622844 /* CubeDBShowView.m */; };
+		E87BFB0C2285628C00622844 /* CubeDBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E87BFB082285628C00622844 /* CubeDBCell.m */; };
+		E88288F322D72C2300B18C05 /* CubeCrashSignalHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E88288F222D72C2300B18C05 /* CubeCrashSignalHandler.m */; };
+		E88288F622D72C4600B18C05 /* CubeCrashUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E88288F522D72C4600B18C05 /* CubeCrashUncaughtExceptionHandler.m */; };
+		E89DE53122A12C11002C719E /* CubeCrashPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E89DE53022A12C11002C719E /* CubeCrashPlugin.m */; };
+		E89DE53422A12C58002C719E /* CubeCrashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E89DE53322A12C58002C719E /* CubeCrashViewController.m */; };
+		E89DE53722A12FA2002C719E /* CubeCrashUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E89DE53622A12FA2002C719E /* CubeCrashUtil.m */; };
+		E8D5E8DB2276DC9E0033105C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D5E8DA2276DC9E0033105C /* AppDelegate.m */; };
+		E8D5E8DE2276DC9E0033105C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D5E8DD2276DC9E0033105C /* ViewController.m */; };
+		E8D5E8E32276DCA00033105C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D5E8E22276DCA00033105C /* Assets.xcassets */; };
+		E8D5E8E62276DCA00033105C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D5E8E42276DCA00033105C /* LaunchScreen.storyboard */; };
+		E8D5E8E92276DCA00033105C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D5E8E82276DCA00033105C /* main.m */; };
+		E8D5E8F72276E3390033105C /* CubeEntryView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D5E8F52276E3390033105C /* CubeEntryView.m */; };
+		E8D5E8FF2276E6250033105C /* UIColor+Cube.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D5E8FE2276E6250033105C /* UIColor+Cube.m */; };
+		E8D5E9022276F5930033105C /* UIFont+Cube.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D5E9012276F5930033105C /* UIFont+Cube.m */; };
+		E8D5E9052276F87D0033105C /* CubeDebugManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D5E9042276F87D0033105C /* CubeDebugManager.m */; };
+		E8E32BD2227EC3E400EEA4AC /* UIView+Cube.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E32BD1227EC3E400EEA4AC /* UIView+Cube.m */; };
+		E8E32BD5227ED44200EEA4AC /* CubeStatusBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E32BD4227ED44200EEA4AC /* CubeStatusBarViewController.m */; };
+		E8E32BD8227EDAD600EEA4AC /* CubeHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E32BD7227EDAD600EEA4AC /* CubeHomeViewController.m */; };
+		E8E32BDE227EF20900EEA4AC /* CubePluginDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E32BDD227EF20900EEA4AC /* CubePluginDataSource.m */; };
+		E8E32BE3227EF4A400EEA4AC /* CubePluginTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E32BE2227EF4A400EEA4AC /* CubePluginTypeModel.m */; };
+		E8E32BE7227FE5E600EEA4AC /* CubeHomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E32BE6227FE5E600EEA4AC /* CubeHomeCollectionViewCell.m */; };
+		E8E4E94622D8862F00604C70 /* CubeCrashListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E4E94522D8862F00604C70 /* CubeCrashListViewController.m */; };
+		E8E4E94B22DEC97800604C70 /* CrashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E4E94A22DEC97800604C70 /* CrashViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E87BFA9222802BC300622844 /* CubeHomeSectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeHomeSectionHeaderView.h; sourceTree = "<group>"; };
+		E87BFA9322802BC300622844 /* CubeHomeSectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeHomeSectionHeaderView.m; sourceTree = "<group>"; };
+		E87BFA952280330D00622844 /* CubeHomeWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeHomeWindow.h; sourceTree = "<group>"; };
+		E87BFA962280330D00622844 /* CubeHomeWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeHomeWindow.m; sourceTree = "<group>"; };
+		E87BFA9822813B6900622844 /* CubePluginProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubePluginProtocol.h; sourceTree = "<group>"; };
+		E87BFA9C228156A300622844 /* NEHTTPEyeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEHTTPEyeViewController.m; sourceTree = "<group>"; };
+		E87BFA9D228156A300622844 /* NEHTTPModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEHTTPModelManager.h; sourceTree = "<group>"; };
+		E87BFA9E228156A300622844 /* NEHTTPEye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEHTTPEye.h; sourceTree = "<group>"; };
+		E87BFA9F228156A300622844 /* NEURLSessionConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEURLSessionConfiguration.h; sourceTree = "<group>"; };
+		E87BFAA0228156A300622844 /* NEShakeGestureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEShakeGestureManager.m; sourceTree = "<group>"; };
+		E87BFAA1228156A300622844 /* NEHTTPEyeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEHTTPEyeDetailViewController.m; sourceTree = "<group>"; };
+		E87BFAA2228156A300622844 /* NEHTTPModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEHTTPModel.h; sourceTree = "<group>"; };
+		E87BFAA3228156A300622844 /* NEHTTPEyeSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEHTTPEyeSettingsViewController.h; sourceTree = "<group>"; };
+		E87BFAA4228156A300622844 /* NEHTTPEyeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEHTTPEyeViewController.h; sourceTree = "<group>"; };
+		E87BFAA5228156A300622844 /* NEShakeGestureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEShakeGestureManager.h; sourceTree = "<group>"; };
+		E87BFAA6228156A300622844 /* NEURLSessionConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEURLSessionConfiguration.m; sourceTree = "<group>"; };
+		E87BFAA7228156A300622844 /* NEHTTPEye.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEHTTPEye.m; sourceTree = "<group>"; };
+		E87BFAA8228156A300622844 /* NEHTTPModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEHTTPModelManager.m; sourceTree = "<group>"; };
+		E87BFAA9228156A300622844 /* NEHTTPEyeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEHTTPEyeDetailViewController.h; sourceTree = "<group>"; };
+		E87BFAAA228156A300622844 /* NEHTTPEyeSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEHTTPEyeSettingsViewController.m; sourceTree = "<group>"; };
+		E87BFAAB228156A300622844 /* NEHTTPModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEHTTPModel.m; sourceTree = "<group>"; };
+		E87BFAB722816DC400622844 /* CubeNetworkEyePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeNetworkEyePlugin.h; sourceTree = "<group>"; };
+		E87BFABC2281775B00622844 /* CubeNetworkEyePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeNetworkEyePlugin.m; sourceTree = "<group>"; };
+		E87BFABE22818CF800622844 /* CubeBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeBaseViewController.h; sourceTree = "<group>"; };
+		E87BFABF22818CF800622844 /* CubeBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeBaseViewController.m; sourceTree = "<group>"; };
+		E87BFAC22282821300622844 /* NetworkTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkTestViewController.h; sourceTree = "<group>"; };
+		E87BFAC32282821300622844 /* NetworkTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkTestViewController.m; sourceTree = "<group>"; };
+		E87BFAC72282830900622844 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		E87BFAC82282830900622844 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		E87BFACB2282C45A00622844 /* CubeAppInfoPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeAppInfoPlugin.h; sourceTree = "<group>"; };
+		E87BFACC2282C45A00622844 /* CubeAppInfoPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeAppInfoPlugin.m; sourceTree = "<group>"; };
+		E87BFACE2282C48F00622844 /* CubeAppInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeAppInfoViewController.h; sourceTree = "<group>"; };
+		E87BFACF2282C48F00622844 /* CubeAppInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeAppInfoViewController.m; sourceTree = "<group>"; };
+		E87BFAD12282D62100622844 /* CubeAppInfoUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeAppInfoUtil.h; sourceTree = "<group>"; };
+		E87BFAD22282D62100622844 /* CubeAppInfoUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeAppInfoUtil.m; sourceTree = "<group>"; };
+		E87BFAD42283D48300622844 /* CubeAppInfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeAppInfoTableViewCell.h; sourceTree = "<group>"; };
+		E87BFAD52283D48300622844 /* CubeAppInfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeAppInfoTableViewCell.m; sourceTree = "<group>"; };
+		E87BFAD92283D75D00622844 /* CubeSandBoxPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeSandBoxPlugin.h; sourceTree = "<group>"; };
+		E87BFADA2283D75D00622844 /* CubeSandBoxPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeSandBoxPlugin.m; sourceTree = "<group>"; };
+		E87BFADC2283D77A00622844 /* CubeSandBoxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeSandBoxViewController.h; sourceTree = "<group>"; };
+		E87BFADD2283D77A00622844 /* CubeSandBoxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeSandBoxViewController.m; sourceTree = "<group>"; };
+		E87BFADF2283D78E00622844 /* CubeFileUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeFileUtil.h; sourceTree = "<group>"; };
+		E87BFAE02283D78E00622844 /* CubeFileUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeFileUtil.m; sourceTree = "<group>"; };
+		E87BFAE222840A7500622844 /* UIImage+Cube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Cube.h"; sourceTree = "<group>"; };
+		E87BFAE322840A7500622844 /* UIImage+Cube.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Cube.m"; sourceTree = "<group>"; };
+		E87BFAE5228415F500622844 /* CubeSandBoxModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeSandBoxModel.h; sourceTree = "<group>"; };
+		E87BFAE6228415F500622844 /* CubeSandBoxModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeSandBoxModel.m; sourceTree = "<group>"; };
+		E87BFAE82284174900622844 /* CubeSandBoxTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeSandBoxTableViewCell.h; sourceTree = "<group>"; };
+		E87BFAE92284174900622844 /* CubeSandBoxTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeSandBoxTableViewCell.m; sourceTree = "<group>"; };
+		E87BFAEC2284288600622844 /* CubeSandBoxDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeSandBoxDetailViewController.h; sourceTree = "<group>"; };
+		E87BFAED2284288600622844 /* CubeSandBoxDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeSandBoxDetailViewController.m; sourceTree = "<group>"; };
+		E87BFAF0228434B400622844 /* CubeSandBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeSandBoxView.m; sourceTree = "<group>"; };
+		E87BFAF1228434B400622844 /* CubeSandBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeSandBoxView.h; sourceTree = "<group>"; };
+		E87BFAF3228438A800622844 /* CubeDebugKitUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeDebugKitUtil.h; sourceTree = "<group>"; };
+		E87BFAF4228438A800622844 /* CubeDebugKitUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeDebugKitUtil.m; sourceTree = "<group>"; };
+		E87BFAF7228515E500622844 /* CubeDBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeDBManager.h; sourceTree = "<group>"; };
+		E87BFAF8228515E500622844 /* CubeDBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeDBManager.m; sourceTree = "<group>"; };
+		E87BFAFA22854F9700622844 /* SandBoxTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandBoxTestViewController.h; sourceTree = "<group>"; };
+		E87BFAFB22854F9700622844 /* SandBoxTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandBoxTestViewController.m; sourceTree = "<group>"; };
+		E87BFAFD22855F0300622844 /* img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img.jpg; sourceTree = "<group>"; };
+		E87BFAFE22855F0400622844 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		E87BFB012285628B00622844 /* CubeDBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeDBTableViewController.h; sourceTree = "<group>"; };
+		E87BFB022285628B00622844 /* CubeDBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeDBTableViewController.m; sourceTree = "<group>"; };
+		E87BFB032285628B00622844 /* CubeDBCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeDBCell.h; sourceTree = "<group>"; };
+		E87BFB042285628B00622844 /* CubeDBRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeDBRowView.m; sourceTree = "<group>"; };
+		E87BFB052285628C00622844 /* CubeDBShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeDBShowView.m; sourceTree = "<group>"; };
+		E87BFB062285628C00622844 /* CubeDBShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeDBShowView.h; sourceTree = "<group>"; };
+		E87BFB072285628C00622844 /* CubeDBRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeDBRowView.h; sourceTree = "<group>"; };
+		E87BFB082285628C00622844 /* CubeDBCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeDBCell.m; sourceTree = "<group>"; };
+		E88288F122D72C2300B18C05 /* CubeCrashSignalHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeCrashSignalHandler.h; sourceTree = "<group>"; };
+		E88288F222D72C2300B18C05 /* CubeCrashSignalHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeCrashSignalHandler.m; sourceTree = "<group>"; };
+		E88288F422D72C4600B18C05 /* CubeCrashUncaughtExceptionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeCrashUncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		E88288F522D72C4600B18C05 /* CubeCrashUncaughtExceptionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeCrashUncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		E89DE52F22A12C10002C719E /* CubeCrashPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeCrashPlugin.h; sourceTree = "<group>"; };
+		E89DE53022A12C11002C719E /* CubeCrashPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeCrashPlugin.m; sourceTree = "<group>"; };
+		E89DE53222A12C58002C719E /* CubeCrashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeCrashViewController.h; sourceTree = "<group>"; };
+		E89DE53322A12C58002C719E /* CubeCrashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeCrashViewController.m; sourceTree = "<group>"; };
+		E89DE53522A12FA2002C719E /* CubeCrashUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeCrashUtil.h; sourceTree = "<group>"; };
+		E89DE53622A12FA2002C719E /* CubeCrashUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeCrashUtil.m; sourceTree = "<group>"; };
+		E8D5E8D62276DC9E0033105C /* CubeDebugKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubeDebugKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D5E8D92276DC9E0033105C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8D5E8DA2276DC9E0033105C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8D5E8DC2276DC9E0033105C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E8D5E8DD2276DC9E0033105C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E8D5E8E22276DCA00033105C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8D5E8E52276DCA00033105C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8D5E8E72276DCA00033105C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D5E8E82276DCA00033105C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8D5E8F52276E3390033105C /* CubeEntryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeEntryView.m; sourceTree = "<group>"; };
+		E8D5E8F62276E3390033105C /* CubeEntryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeEntryView.h; sourceTree = "<group>"; };
+		E8D5E8F92276E3A80033105C /* CubeDebugKitDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeDebugKitDefine.h; sourceTree = "<group>"; };
+		E8D5E8FD2276E6250033105C /* UIColor+Cube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Cube.h"; sourceTree = "<group>"; };
+		E8D5E8FE2276E6250033105C /* UIColor+Cube.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Cube.m"; sourceTree = "<group>"; };
+		E8D5E9002276F5930033105C /* UIFont+Cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Cube.h"; sourceTree = "<group>"; };
+		E8D5E9012276F5930033105C /* UIFont+Cube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Cube.m"; sourceTree = "<group>"; };
+		E8D5E9032276F87D0033105C /* CubeDebugManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeDebugManager.h; sourceTree = "<group>"; };
+		E8D5E9042276F87D0033105C /* CubeDebugManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeDebugManager.m; sourceTree = "<group>"; };
+		E8E32BD0227EC3E400EEA4AC /* UIView+Cube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Cube.h"; sourceTree = "<group>"; };
+		E8E32BD1227EC3E400EEA4AC /* UIView+Cube.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Cube.m"; sourceTree = "<group>"; };
+		E8E32BD3227ED44200EEA4AC /* CubeStatusBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeStatusBarViewController.h; sourceTree = "<group>"; };
+		E8E32BD4227ED44200EEA4AC /* CubeStatusBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeStatusBarViewController.m; sourceTree = "<group>"; };
+		E8E32BD6227EDAD600EEA4AC /* CubeHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeHomeViewController.h; sourceTree = "<group>"; };
+		E8E32BD7227EDAD600EEA4AC /* CubeHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeHomeViewController.m; sourceTree = "<group>"; };
+		E8E32BDA227EE55300EEA4AC /* CubeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeHeader.h; sourceTree = "<group>"; };
+		E8E32BDC227EF20900EEA4AC /* CubePluginDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubePluginDataSource.h; sourceTree = "<group>"; };
+		E8E32BDD227EF20900EEA4AC /* CubePluginDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubePluginDataSource.m; sourceTree = "<group>"; };
+		E8E32BE1227EF4A400EEA4AC /* CubePluginTypeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubePluginTypeModel.h; sourceTree = "<group>"; };
+		E8E32BE2227EF4A400EEA4AC /* CubePluginTypeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubePluginTypeModel.m; sourceTree = "<group>"; };
+		E8E32BE4227FE34600EEA4AC /* CubeTypedef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeTypedef.h; sourceTree = "<group>"; };
+		E8E32BE5227FE5E600EEA4AC /* CubeHomeCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeHomeCollectionViewCell.h; sourceTree = "<group>"; };
+		E8E32BE6227FE5E600EEA4AC /* CubeHomeCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeHomeCollectionViewCell.m; sourceTree = "<group>"; };
+		E8E4E94422D8862F00604C70 /* CubeCrashListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CubeCrashListViewController.h; sourceTree = "<group>"; };
+		E8E4E94522D8862F00604C70 /* CubeCrashListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeCrashListViewController.m; sourceTree = "<group>"; };
+		E8E4E94922DEC97800604C70 /* CrashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrashViewController.h; sourceTree = "<group>"; };
+		E8E4E94A22DEC97800604C70 /* CrashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8D5E8D32276DC9E0033105C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E87BFA992281531B00622844 /* FPS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FPS;
+			sourceTree = "<group>";
+		};
+		E87BFA9B228156A300622844 /* NetworkEye */ = {
+			isa = PBXGroup;
+			children = (
+				E87BFAB722816DC400622844 /* CubeNetworkEyePlugin.h */,
+				E87BFABC2281775B00622844 /* CubeNetworkEyePlugin.m */,
+				E87BFABB22816E0D00622844 /* NetworkEye */,
+			);
+			path = NetworkEye;
+			sourceTree = "<group>";
+		};
+		E87BFABB22816E0D00622844 /* NetworkEye */ = {
+			isa = PBXGroup;
+			children = (
+				E87BFA9E228156A300622844 /* NEHTTPEye.h */,
+				E87BFAA7228156A300622844 /* NEHTTPEye.m */,
+				E87BFAA9228156A300622844 /* NEHTTPEyeDetailViewController.h */,
+				E87BFAA1228156A300622844 /* NEHTTPEyeDetailViewController.m */,
+				E87BFAA3228156A300622844 /* NEHTTPEyeSettingsViewController.h */,
+				E87BFAAA228156A300622844 /* NEHTTPEyeSettingsViewController.m */,
+				E87BFAA4228156A300622844 /* NEHTTPEyeViewController.h */,
+				E87BFA9C228156A300622844 /* NEHTTPEyeViewController.m */,
+				E87BFAA2228156A300622844 /* NEHTTPModel.h */,
+				E87BFAAB228156A300622844 /* NEHTTPModel.m */,
+				E87BFA9D228156A300622844 /* NEHTTPModelManager.h */,
+				E87BFAA8228156A300622844 /* NEHTTPModelManager.m */,
+				E87BFAA5228156A300622844 /* NEShakeGestureManager.h */,
+				E87BFAA0228156A300622844 /* NEShakeGestureManager.m */,
+				E87BFA9F228156A300622844 /* NEURLSessionConfiguration.h */,
+				E87BFAA6228156A300622844 /* NEURLSessionConfiguration.m */,
+			);
+			path = NetworkEye;
+			sourceTree = "<group>";
+		};
+		E87BFAC1228281ED00622844 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				E8E4E94822DEC96600604C70 /* Crash */,
+				E87BFAEF22842D5A00622844 /* SandBox */,
+				E87BFAC6228282FA00622844 /* Net */,
+				E87BFAC72282830900622844 /* DemoViewController.h */,
+				E87BFAC82282830900622844 /* DemoViewController.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		E87BFAC6228282FA00622844 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				E87BFAC22282821300622844 /* NetworkTestViewController.h */,
+				E87BFAC32282821300622844 /* NetworkTestViewController.m */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		E87BFACA2282C44100622844 /* AppInfo */ = {
+			isa = PBXGroup;
+			children = (
+				E87BFACB2282C45A00622844 /* CubeAppInfoPlugin.h */,
+				E87BFACC2282C45A00622844 /* CubeAppInfoPlugin.m */,
+				E87BFACE2282C48F00622844 /* CubeAppInfoViewController.h */,
+				E87BFACF2282C48F00622844 /* CubeAppInfoViewController.m */,
+				E87BFAD12282D62100622844 /* CubeAppInfoUtil.h */,
+				E87BFAD22282D62100622844 /* CubeAppInfoUtil.m */,
+			);
+			path = AppInfo;
+			sourceTree = "<group>";
+		};
+		E87BFAD72283D48900622844 /* AppInfo */ = {
+			isa = PBXGroup;
+			children = (
+				E87BFAD42283D48300622844 /* CubeAppInfoTableViewCell.h */,
+				E87BFAD52283D48300622844 /* CubeAppInfoTableViewCell.m */,
+			);
+			path = AppInfo;
+			sourceTree = "<group>";
+		};
+		E87BFAD82283D74900622844 /* SandBox */ = {
+			isa = PBXGroup;
+			children = (
+				E87BFAF62285136900622844 /* DB */,
+				E87BFAD92283D75D00622844 /* CubeSandBoxPlugin.h */,
+				E87BFADA2283D75D00622844 /* CubeSandBoxPlugin.m */,
+				E87BFADC2283D77A00622844 /* CubeSandBoxViewController.h */,
+				E87BFADD2283D77A00622844 /* CubeSandBoxViewController.m */,
+				E87BFAEC2284288600622844 /* CubeSandBoxDetailViewController.h */,
+				E87BFAED2284288600622844 /* CubeSandBoxDetailViewController.m */,
+			);
+			path = SandBox;
+			sourceTree = "<group>";
+		};
+		E87BFAEB2284175D00622844 /* SandBox */ = {
+			isa = PBXGroup;
+			children = (
+				E87BFAF1228434B400622844 /* CubeSandBoxView.h */,
+				E87BFAF0228434B400622844 /* CubeSandBoxView.m */,
+				E87BFAE82284174900622844 /* CubeSandBoxTableViewCell.h */,
+				E87BFAE92284174900622844 /* CubeSandBoxTableViewCell.m */,
+			);
+			path = SandBox;
+			sourceTree = "<group>";
+		};
+		E87BFAEF22842D5A00622844 /* SandBox */ = {
+			isa = PBXGroup;
+			children = (
+				E87BFAFA22854F9700622844 /* SandBoxTestViewController.h */,
+				E87BFAFB22854F9700622844 /* SandBoxTestViewController.m */,
+			);
+			path = SandBox;
+			sourceTree = "<group>";
+		};
+		E87BFAF62285136900622844 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				E87BFB032285628B00622844 /* CubeDBCell.h */,
+				E87BFB082285628C00622844 /* CubeDBCell.m */,
+				E87BFB072285628C00622844 /* CubeDBRowView.h */,
+				E87BFB042285628B00622844 /* CubeDBRowView.m */,
+				E87BFB062285628C00622844 /* CubeDBShowView.h */,
+				E87BFB052285628C00622844 /* CubeDBShowView.m */,
+				E87BFB012285628B00622844 /* CubeDBTableViewController.h */,
+				E87BFB022285628B00622844 /* CubeDBTableViewController.m */,
+				E87BFAF7228515E500622844 /* CubeDBManager.h */,
+				E87BFAF8228515E500622844 /* CubeDBManager.m */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		E89DE52E22A12BF4002C719E /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				E89DE52F22A12C10002C719E /* CubeCrashPlugin.h */,
+				E89DE53022A12C11002C719E /* CubeCrashPlugin.m */,
+				E89DE53222A12C58002C719E /* CubeCrashViewController.h */,
+				E89DE53322A12C58002C719E /* CubeCrashViewController.m */,
+				E8E4E94722D8864900604C70 /* Handler */,
+				E8E4E94422D8862F00604C70 /* CubeCrashListViewController.h */,
+				E8E4E94522D8862F00604C70 /* CubeCrashListViewController.m */,
+			);
+			path = Crash;
+			sourceTree = "<group>";
+		};
+		E8D5E8CD2276DC9E0033105C = {
+			isa = PBXGroup;
+			children = (
+				E8D5E8D82276DC9E0033105C /* CubeDebugKit */,
+				E8D5E8D72276DC9E0033105C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8D5E8D72276DC9E0033105C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8D5E8D62276DC9E0033105C /* CubeDebugKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8D5E8D82276DC9E0033105C /* CubeDebugKit */ = {
+			isa = PBXGroup;
+			children = (
+				E87BFAFD22855F0300622844 /* img.jpg */,
+				E87BFAFE22855F0400622844 /* video.mp4 */,
+				E87BFAC1228281ED00622844 /* Test */,
+				E8E32BDB227EF14500EEA4AC /* Cube */,
+				E8D5E8EF2276E2060033105C /* Core */,
+				E8D5E8D92276DC9E0033105C /* AppDelegate.h */,
+				E8D5E8DA2276DC9E0033105C /* AppDelegate.m */,
+				E8D5E8DC2276DC9E0033105C /* ViewController.h */,
+				E8D5E8DD2276DC9E0033105C /* ViewController.m */,
+				E8D5E8E22276DCA00033105C /* Assets.xcassets */,
+				E8D5E8E42276DCA00033105C /* LaunchScreen.storyboard */,
+				E8D5E8E72276DCA00033105C /* Info.plist */,
+				E8D5E8E82276DCA00033105C /* main.m */,
+			);
+			path = CubeDebugKit;
+			sourceTree = "<group>";
+		};
+		E8D5E8EF2276E2060033105C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E8E32BE0227EF45100EEA4AC /* Model */,
+				E8E32BDF227EF45100EEA4AC /* View */,
+				E8D5E8F82276E38F0033105C /* Define */,
+				E8D5E8F42276E2BA0033105C /* Base */,
+				E8D5E8F02276E2060033105C /* Category */,
+				E8D5E8F12276E2060033105C /* Util */,
+				E8D5E8F22276E2060033105C /* Plugins */,
+				E8D5E8F32276E2060033105C /* Entry */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E8D5E8F02276E2060033105C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E8D5E9002276F5930033105C /* UIFont+Cube.h */,
+				E8D5E9012276F5930033105C /* UIFont+Cube.m */,
+				E8D5E8FD2276E6250033105C /* UIColor+Cube.h */,
+				E8D5E8FE2276E6250033105C /* UIColor+Cube.m */,
+				E8E32BD0227EC3E400EEA4AC /* UIView+Cube.h */,
+				E8E32BD1227EC3E400EEA4AC /* UIView+Cube.m */,
+				E87BFAE222840A7500622844 /* UIImage+Cube.h */,
+				E87BFAE322840A7500622844 /* UIImage+Cube.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E8D5E8F12276E2060033105C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E87BFADF2283D78E00622844 /* CubeFileUtil.h */,
+				E87BFAE02283D78E00622844 /* CubeFileUtil.m */,
+				E87BFAF3228438A800622844 /* CubeDebugKitUtil.h */,
+				E87BFAF4228438A800622844 /* CubeDebugKitUtil.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		E8D5E8F22276E2060033105C /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				E89DE52E22A12BF4002C719E /* Crash */,
+				E87BFAD82283D74900622844 /* SandBox */,
+				E87BFACA2282C44100622844 /* AppInfo */,
+				E87BFA9B228156A300622844 /* NetworkEye */,
+				E87BFA992281531B00622844 /* FPS */,
+				E8E32BDC227EF20900EEA4AC /* CubePluginDataSource.h */,
+				E8E32BDD227EF20900EEA4AC /* CubePluginDataSource.m */,
+				E87BFA9822813B6900622844 /* CubePluginProtocol.h */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		E8D5E8F32276E2060033105C /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				E8D5E8F62276E3390033105C /* CubeEntryView.h */,
+				E8D5E8F52276E3390033105C /* CubeEntryView.m */,
+				E8E32BD6227EDAD600EEA4AC /* CubeHomeViewController.h */,
+				E8E32BD7227EDAD600EEA4AC /* CubeHomeViewController.m */,
+				E87BFA952280330D00622844 /* CubeHomeWindow.h */,
+				E87BFA962280330D00622844 /* CubeHomeWindow.m */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		E8D5E8F42276E2BA0033105C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E8E32BD3227ED44200EEA4AC /* CubeStatusBarViewController.h */,
+				E8E32BD4227ED44200EEA4AC /* CubeStatusBarViewController.m */,
+				E87BFABE22818CF800622844 /* CubeBaseViewController.h */,
+				E87BFABF22818CF800622844 /* CubeBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E8D5E8F82276E38F0033105C /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				E8D5E8F92276E3A80033105C /* CubeDebugKitDefine.h */,
+				E8E32BDA227EE55300EEA4AC /* CubeHeader.h */,
+				E8E32BE4227FE34600EEA4AC /* CubeTypedef.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		E8E32BDB227EF14500EEA4AC /* Cube */ = {
+			isa = PBXGroup;
+			children = (
+				E8D5E9032276F87D0033105C /* CubeDebugManager.h */,
+				E8D5E9042276F87D0033105C /* CubeDebugManager.m */,
+			);
+			path = Cube;
+			sourceTree = "<group>";
+		};
+		E8E32BDF227EF45100EEA4AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8E32BE8227FE5F600EEA4AC /* Home */,
+				E87BFAD72283D48900622844 /* AppInfo */,
+				E87BFAEB2284175D00622844 /* SandBox */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8E32BE0227EF45100EEA4AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8E32BE1227EF4A400EEA4AC /* CubePluginTypeModel.h */,
+				E8E32BE2227EF4A400EEA4AC /* CubePluginTypeModel.m */,
+				E87BFAE5228415F500622844 /* CubeSandBoxModel.h */,
+				E87BFAE6228415F500622844 /* CubeSandBoxModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E8E32BE8227FE5F600EEA4AC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E8E32BE5227FE5E600EEA4AC /* CubeHomeCollectionViewCell.h */,
+				E8E32BE6227FE5E600EEA4AC /* CubeHomeCollectionViewCell.m */,
+				E87BFA9222802BC300622844 /* CubeHomeSectionHeaderView.h */,
+				E87BFA9322802BC300622844 /* CubeHomeSectionHeaderView.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E8E4E94722D8864900604C70 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				E89DE53522A12FA2002C719E /* CubeCrashUtil.h */,
+				E89DE53622A12FA2002C719E /* CubeCrashUtil.m */,
+				E88288F122D72C2300B18C05 /* CubeCrashSignalHandler.h */,
+				E88288F222D72C2300B18C05 /* CubeCrashSignalHandler.m */,
+				E88288F422D72C4600B18C05 /* CubeCrashUncaughtExceptionHandler.h */,
+				E88288F522D72C4600B18C05 /* CubeCrashUncaughtExceptionHandler.m */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		E8E4E94822DEC96600604C70 /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				E8E4E94922DEC97800604C70 /* CrashViewController.h */,
+				E8E4E94A22DEC97800604C70 /* CrashViewController.m */,
+			);
+			path = Crash;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8D5E8D52276DC9E0033105C /* CubeDebugKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8D5E8EC2276DCA00033105C /* Build configuration list for PBXNativeTarget "CubeDebugKit" */;
+			buildPhases = (
+				E8D5E8D22276DC9E0033105C /* Sources */,
+				E8D5E8D32276DC9E0033105C /* Frameworks */,
+				E8D5E8D42276DC9E0033105C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CubeDebugKit;
+			productName = CubeDebugKit;
+			productReference = E8D5E8D62276DC9E0033105C /* CubeDebugKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8D5E8CE2276DC9E0033105C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Chengwen;
+				TargetAttributes = {
+					E8D5E8D52276DC9E0033105C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E8D5E8D12276DC9E0033105C /* Build configuration list for PBXProject "CubeDebugKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8D5E8CD2276DC9E0033105C;
+			productRefGroup = E8D5E8D72276DC9E0033105C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8D5E8D52276DC9E0033105C /* CubeDebugKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8D5E8D42276DC9E0033105C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87BFAFF22855F0400622844 /* img.jpg in Resources */,
+				E8D5E8E62276DCA00033105C /* LaunchScreen.storyboard in Resources */,
+				E8D5E8E32276DCA00033105C /* Assets.xcassets in Resources */,
+				E87BFB0022855F0400622844 /* video.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8D5E8D22276DC9E0033105C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89DE53722A12FA2002C719E /* CubeCrashUtil.m in Sources */,
+				E87BFB0A2285628C00622844 /* CubeDBRowView.m in Sources */,
+				E87BFAB2228156A300622844 /* NEHTTPEyeSettingsViewController.m in Sources */,
+				E87BFAF5228438A800622844 /* CubeDebugKitUtil.m in Sources */,
+				E87BFAB0228156A300622844 /* NEHTTPEye.m in Sources */,
+				E8D5E8FF2276E6250033105C /* UIColor+Cube.m in Sources */,
+				E87BFAB1228156A300622844 /* NEHTTPModelManager.m in Sources */,
+				E8E4E94B22DEC97800604C70 /* CrashViewController.m in Sources */,
+				E8E4E94622D8862F00604C70 /* CubeCrashListViewController.m in Sources */,
+				E87BFA9422802BC300622844 /* CubeHomeSectionHeaderView.m in Sources */,
+				E87BFAF2228434B400622844 /* CubeSandBoxView.m in Sources */,
+				E87BFAD62283D48300622844 /* CubeAppInfoTableViewCell.m in Sources */,
+				E8E32BE3227EF4A400EEA4AC /* CubePluginTypeModel.m in Sources */,
+				E87BFADE2283D77A00622844 /* CubeSandBoxViewController.m in Sources */,
+				E87BFB0B2285628C00622844 /* CubeDBShowView.m in Sources */,
+				E87BFAC92282830900622844 /* DemoViewController.m in Sources */,
+				E8D5E9022276F5930033105C /* UIFont+Cube.m in Sources */,
+				E87BFAEA2284174900622844 /* CubeSandBoxTableViewCell.m in Sources */,
+				E87BFAAE228156A300622844 /* NEHTTPEyeDetailViewController.m in Sources */,
+				E8D5E8DE2276DC9E0033105C /* ViewController.m in Sources */,
+				E88288F622D72C4600B18C05 /* CubeCrashUncaughtExceptionHandler.m in Sources */,
+				E87BFADB2283D75D00622844 /* CubeSandBoxPlugin.m in Sources */,
+				E87BFAAF228156A300622844 /* NEURLSessionConfiguration.m in Sources */,
+				E8E32BD2227EC3E400EEA4AC /* UIView+Cube.m in Sources */,
+				E87BFAB3228156A300622844 /* NEHTTPModel.m in Sources */,
+				E89DE53122A12C11002C719E /* CubeCrashPlugin.m in Sources */,
+				E8E32BE7227FE5E600EEA4AC /* CubeHomeCollectionViewCell.m in Sources */,
+				E87BFAC42282821300622844 /* NetworkTestViewController.m in Sources */,
+				E87BFAF9228515E500622844 /* CubeDBManager.m in Sources */,
+				E8E32BD8227EDAD600EEA4AC /* CubeHomeViewController.m in Sources */,
+				E87BFAEE2284288600622844 /* CubeSandBoxDetailViewController.m in Sources */,
+				E87BFAAD228156A300622844 /* NEShakeGestureManager.m in Sources */,
+				E87BFACD2282C45A00622844 /* CubeAppInfoPlugin.m in Sources */,
+				E87BFAD02282C48F00622844 /* CubeAppInfoViewController.m in Sources */,
+				E87BFA972280330D00622844 /* CubeHomeWindow.m in Sources */,
+				E87BFB0C2285628C00622844 /* CubeDBCell.m in Sources */,
+				E87BFAAC228156A300622844 /* NEHTTPEyeViewController.m in Sources */,
+				E87BFAE7228415F500622844 /* CubeSandBoxModel.m in Sources */,
+				E88288F322D72C2300B18C05 /* CubeCrashSignalHandler.m in Sources */,
+				E87BFAC022818CF800622844 /* CubeBaseViewController.m in Sources */,
+				E89DE53422A12C58002C719E /* CubeCrashViewController.m in Sources */,
+				E87BFABD2281775B00622844 /* CubeNetworkEyePlugin.m in Sources */,
+				E8D5E8E92276DCA00033105C /* main.m in Sources */,
+				E87BFB092285628C00622844 /* CubeDBTableViewController.m in Sources */,
+				E8E32BDE227EF20900EEA4AC /* CubePluginDataSource.m in Sources */,
+				E8D5E9052276F87D0033105C /* CubeDebugManager.m in Sources */,
+				E87BFAD32282D62100622844 /* CubeAppInfoUtil.m in Sources */,
+				E87BFAFC22854F9700622844 /* SandBoxTestViewController.m in Sources */,
+				E87BFAE12283D78E00622844 /* CubeFileUtil.m in Sources */,
+				E8D5E8F72276E3390033105C /* CubeEntryView.m in Sources */,
+				E87BFAE422840A7500622844 /* UIImage+Cube.m in Sources */,
+				E8E32BD5227ED44200EEA4AC /* CubeStatusBarViewController.m in Sources */,
+				E8D5E8DB2276DC9E0033105C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8D5E8E42276DCA00033105C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8D5E8E52276DCA00033105C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8D5E8EA2276DCA00033105C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E8D5E8EB2276DCA00033105C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8D5E8ED2276DCA00033105C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WUYEW92SE;
+				INFOPLIST_FILE = CubeDebugKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chengwen.CubeDebugKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8D5E8EE2276DCA00033105C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WUYEW92SE;
+				INFOPLIST_FILE = CubeDebugKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chengwen.CubeDebugKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8D5E8D12276DC9E0033105C /* Build configuration list for PBXProject "CubeDebugKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D5E8EA2276DCA00033105C /* Debug */,
+				E8D5E8EB2276DCA00033105C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8D5E8EC2276DCA00033105C /* Build configuration list for PBXNativeTarget "CubeDebugKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D5E8ED2276DCA00033105C /* Debug */,
+				E8D5E8EE2276DCA00033105C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8D5E8CE2276DC9E0033105C /* Project object */;
+}
