@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "CubeDebugKit"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "iOS debug kit."
 
   spec.description  = <<-DESC
@@ -33,7 +33,7 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  spec.platform     = :ios
+  spec.platform     = :ios, "9.0"
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
